@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(215, 234, 251);
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+/*navigation bar*/
+.header{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.header ul{
+    padding: 10px;
+}
+.header li{
+    padding: 10px;
+    font-size: smaller;
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header ul a{
+    color: black;
+    text-decoration: none;
+}
+.header a:hover{
+    color: blue;
+}
+.header form input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.navbar{
+    background-color:rgb(199, 193, 193);
+    padding: 10px;
+}
+.navbar ul{
+    padding: 10px;
+}
+.navbar li{
+    padding: 10px;
+    font-size: smaller;
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar ul a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: blue;
+}
+.login{
+    font-size: large;
+    color:black;
+     padding: 10px;
+     font-weight: bold;
+}
+
+
+/*about*/
+.about{
+    padding: 20px;
+}
+.about h1{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: black;
+}
+.about span{
+    font-size: 20px;
+    color: royalblue;
+}
+.about p{
+    font-size: large;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*categories*/
+
+.categories{
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.categories div{
+    margin: 30px;
+    box-shadow: 2px 4px 1px 0px white;
+}
+.cat h3{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'lobster';
+}
+h4{
+    font-family:'Lobster', cursive ;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:black;
+    background-color: white;
+}
+h3{
+    font-family:'Lobster', cursive ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:black;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact .form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:600px) {
+    #contact .form{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
